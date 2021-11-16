@@ -31,6 +31,39 @@ public class BinarySearch {
         }
         return -1;
     }
+    package test6205;
+
+import java.util.ArrayList;
+import java.util.Date;
+
+    public class test5100 {
+        public static void main(String[] args) {
+            test6205.one a=new test6205.two();
+            int b="abc".charAt(2)+1;
+            System.out.println(b);
+        }
+
+
+
+    }
+
+
+    class one{
+        one(){
+            System.out.println("a");
+        }
+    }
+    class two extends test6205.one {
+        two(){
+            System.out.println("b");
+        }
+
+    }
+    class three extends test6205.two {
+        three(){
+            System.out.println("c");
+        }
+    }
     public static int bin(int[] arr,int value){
         int left=0;
         int right=arr.length-1;
